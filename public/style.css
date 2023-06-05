@@ -1,0 +1,160 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.navbartitle {
+  text-align: center;
+  font-size: 24px;
+  margin: 10px;
+}
+
+.navbarbutton {
+  text-decoration: none;
+  color: #333;
+  margin: 15px;
+  padding: 5px;
+}
+
+.navbarbutton:hover {
+  background-color: #036b9f4d;
+  color: rgb(201, 241, 255);
+  border-radius: 5px;
+ }
+
+.aboutlinks a {
+  margin: 25px;
+  color: #4b6b74;
+
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-credits {
+  margin-top: 10px;
+}
+
+.footer-credits p {
+  margin: 5px;
+  font-size: 12px;
+  color: #999;
+}
+
+.footer-credits p:first-child {
+  font-weight: bold;
+}
+
+.footer-credits p:last-child {
+  font-style: italic;
+}
+
+.galimg {
+  max-width: 200px;
+  min-width: 100px;
+}
+
+#containerabout {
+  text-align: center;
+}
+
+#header1 {
+  display: block;
+   padding: 10px;
+   background: linear-gradient(20deg, rgba(172, 199, 240, 0.699) 0%, rgb(255, 255, 255) 100%), url(codebg.gif);
+   border: 0;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+  border-bottom-right-radius: 200px;
+  color: #4b6b74;
+  }
+
+.logo {
+  width: 100px;
+  animation: infinite dolphinsdance 4s;
+}
+
+.navbartitle{
+    padding-bottom: 22px;
+}
+
+#h2home{
+  margin-top: 5rem;
+  color: #4b6b74;
+}
+
+#lastp{
+  padding-bottom: 15rem;
+  color: #4b6b74;
+}
+
+
+
+ 
+@keyframes dolphinsdance{
+  0% {  
+           
+
+     
+    
+  }
+  55% {     transform: rotate3d(0, 1, 0, 60deg);
+
+
+  }
+
+   
+}
+
+.navbartitle{
+  color: #fefeff;
+  text-shadow: #00025f;
+  font-weight: 500;
+ }
+
+.navbarbutton{
+  color: #4b6b74;}
+
+  #thebtnsnvbr{
+    background-color: #dae9ff;
+    padding: 10px;
+    max-width: fit-content;
+    border: 0;
+    border-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+  }
+
+
+  @media only screen and (max-width:800px){
+    #header1{
+      border-bottom-right-radius: 100px;
+      font-size: small;
+    
+    }
+    #thebtnsnvbr{
+      border-bottom-right-radius: 65px;
+      font-size: small;
+      padding: 4px;
+     }
+
+     .aboutlinks a {
+      margin: 15px;
+      font-size: small;
+     
+    }
+    .navbarbutton {
+ 
+      margin: 5px;
+      padding: 5px;
+    }
+    }
